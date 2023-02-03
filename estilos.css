@@ -42,3 +42,18 @@ p{
 .centrado{
     text-align: center;
 }
+.basico{
+    list-style-type: none;
+}
+a:link{
+
+}
+a:hover{
+
+}
+a:active{
+    
+}
+a:visited{
+
+}
