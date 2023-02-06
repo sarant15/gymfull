@@ -48,14 +48,16 @@ p{
     list-style-type: none;
 }
 a:link{
-
+    font-weight: bold;
 }
 a:hover{
-
+    text-shadow: 3px -2px 4px white;
 }
 a:active{
-    
+    letter-spacing: 3px;
+    color:#ff23c8;
 }
 a:visited{
-
+    text-decoration: line-through;
+    color:black;
 }
