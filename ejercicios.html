@@ -33,7 +33,7 @@
             <form>
                 <fieldset>
                     <legend>Datos personales</legend>
-                    <label>Nombre: <input type="text" required name="nombre" /><label>
+                    <label>Nombre: <input type="text" required name="nombre"/><label>
                     <label>Apellidos: <input type="text" placeholder="Escribe los dos apellidos" name="apellidos" /><label>
                     <br><br>
                     <label>Teléfono: <input type="text" placeholder="Escribe un teléfono móvil" name="telefono" size="18" maxlength="9"><label>
@@ -41,6 +41,15 @@
                     <br><br>
                     <label>Email: <input type="email" name="correo" multiple></label>
                   </fieldset>
+                <fieldset>
+                    <legend>Datos físicos</legend>
+                    <label>Peso:<input type="text" placeholder="Escribe el peso en kg" required name="peso"/></label>
+                    <label>Altura:<input type="text" placeholder="Escribe la altura en cm" required name="altura"/></label>
+                    <br><br>
+                    <label>Sexo: Hombre<input type="radio" name="sexo" value="h"> Mujer<input type="radio" name="sexo"
+                        value="m">Indefinido<input type="radio" name="sexo" value="i"></label>&nbsp;&nbsp;
+                    <label>Edad: <input type="number" name="edad" min="18" max="65" placeholder="18-65"></label>
+                </fieldset>
                 <br>
                 ¿Cuál es tu objetivo?: 
                 <select name="obj">
@@ -107,6 +116,9 @@
                 como plancha, te recomiendo hacer 4 series igualmente con una duración de <b>30/40s</b>
                 por serie.
             </p>
+            <center>
+            <img src="./img/foto ejercicios.png" height="317" width="400">
+            </center>
         </div>
         <div id="pie">
             <marquee>Sara Núñez BC2A</marquee>
